@@ -12,7 +12,14 @@ def main():
         print("1. Divide and Conquer")
         print("2. Brute Force")
         print("3. Keluar")
-        choice = int(input("Masukkan pilihan: "))
+        
+        while True:
+            try:
+                choice = int(input("Masukkan pilihan: "))
+                break
+            except ValueError:
+                print("Invalid input.")
+        
         if choice == 1:
             divideandConquer()
         elif choice == 2:

@@ -55,6 +55,7 @@ Algoritma divide and conquer adalah salah satu strategi algoritma yang menyelesa
 ```  
 
 4. Chose Method
+
 Masukan dalam format 1, 2, atau 3
 ``` sh
     Pilih metode:
@@ -67,6 +68,7 @@ Masukan dalam format 1, 2, atau 3
 ```
 
 5. Set The Point
+
 Masukan dalam format x y
 ``` sh
     Masukkan koordinat x dan y titik ke-0 : 1 1
@@ -74,6 +76,7 @@ Masukan dalam format x y
 ``` 
 
 6. Set The Iteration
+
 Masukan dalam format X dimana X adalah integer
 ``` sh
     Masukkan jumlah iterasi: 3

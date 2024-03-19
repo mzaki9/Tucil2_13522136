@@ -39,10 +39,16 @@ def divideandConquer():
                 P.append(Point(x, y))
                 break
             except ValueError:
-                print("Invalid input. Please enter valid numerical values.")
+                print("Invalid input.")
 
     global iterations
-    iterations = int(input("Masukkan jumlah iterasi: "))
+    
+    while(True):
+        iterations = int(input("Masukkan jumlah iterasi: "))
+        if iterations < 0:
+            print("Iterasi tidak boleh negatif. Silakan input kembali.")
+        else:
+            break
    
     curve_points = []
    
